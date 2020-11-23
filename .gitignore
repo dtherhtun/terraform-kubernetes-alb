@@ -1,0 +1,11 @@
+/.terraform/
+*.tfstate*
+*.auto.tfvars
+
+**/.terraform/*
+.terraform
+.terraform/*
+.terraformrc
+# .tfstate files
+*.tfstate
+*.tfstate.*
