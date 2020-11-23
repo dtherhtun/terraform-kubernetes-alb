@@ -12,7 +12,7 @@ data "aws_vpc" "selected" {
 }
 
 data "aws_region" "current" {
-  name = var.aws_region_name
+  name = var.region
 }
 
 data "aws_caller_identity" "current" {}

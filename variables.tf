@@ -55,10 +55,10 @@ variable "aws_vpc_id" {
   default     = null
 }
 
-variable "aws_region_name" {
+variable "region" {
   description = "ID of the Virtual Private Network to utilize. Can be ommited if targeting EKS."
   type        = string
-  default     = null
+  default     = "ap-southeast-1"
 }
 
 variable "aws_resource_name_prefix" {
